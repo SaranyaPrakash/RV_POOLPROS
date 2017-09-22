@@ -1,0 +1,27 @@
+{
+  "title": "Pool Pros",
+  "name": "Red-Ventures-Pool-Pros",
+  "description": "Finding Pool Service made easy",
+  "keywords": [
+    "dealers",
+    "service",
+    "Pool",
+    "installation",
+    "commercial",
+    "residential"
+  ],
+  "homepage": "file:///C:/Users/Saranya%20Prakash/Desktop/RV_POOLPROS/index.html",
+  "bugs": {
+    "email": "saranyaprakash.sp@gmail.com"
+  },
+  "author": "Saranya Prakash Babu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saranya-prakash/PoolPros"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+  },
+}

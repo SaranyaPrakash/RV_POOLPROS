@@ -1,0 +1,419 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+    padding-top: 0px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 0px;
+    }
+    .mob-menu{
+        display: none !important;
+    }
+    .mob-btn-find{
+        display: none !important;
+    }
+    .filter-bar-mob{
+        display: none !important;
+    }
+      .label-send-email{
+        display: none !important;
+    }
+    .close-mob-modal-btn{
+        display: none !important;
+    }
+    .close-modal-btn{
+            padding-top: 13px;
+    }
+    .yn_chkbox, .send-email-link-mob{
+        display: none !important;
+    }
+    
+    .container div.hide-mob-menu{
+        display: none !important;
+    }
+    .col-md-12{
+        height: 107px !important;
+    }
+    
+}
+@media (max-width: 991px) {
+    body {
+        padding-top: 0px;
+    }
+    .blue-header{
+        display: none;
+    }
+    .White_header {
+  top: 0px !important;
+  border-radius: 0px!important;
+  height: 55px !important;
+    }
+    .navbar-img{
+        height:18px !important;
+    }
+    .imgadj{
+margin-top: 70px !important;
+    }
+    .filter-bar{
+        display: none;
+    }
+    .email-modal{
+        width:381px !important;
+        height: 974px !important;
+    }
+    .long-field{
+        min-width: 172% !important;
+    }
+    .label-send-email-text{
+        display: none !important;
+    }
+    .close-mob-modal-btn{
+        text-align: right;
+    }
+    .close-modal-btn, .yn_btn, .send-email-link{
+        display: none !important;
+    }
+    .modal-foot{
+        height: 95px !important;
+    }
+}
+.blue-header{
+    background-color: #083d8c;top:0;bottom:0; width: 100%;
+}
+.menu-head{
+    text-align: center;color: #01529e;font-weight: bold;
+}
+.imgadj{
+margin-top: 90px;
+}
+.mob-menu{
+    width: 375px;top: 100%; position: absolute;border-bottom: thick solid #0bc9c8;border-top: thick solid #0bc9c8; background-color: #fff;
+}
+.filter-bar{
+    height:83px; width: 100%; background-color: #f6f6f6;border-radius: 10px;clear: both;
+}
+.filter-bar-mob{
+    min-height:83px;height: auto; width: 100%; background-color: #f6f6f6;clear: both;
+}
+.service_radio_btn {
+  border-width: 6px;
+  border-color: rgb(33, 109, 223);
+  border-style: solid;
+  border-radius: 5px;
+-moz-appearance:none;
+-webkit-appearance:none;
+-o-appearance:none;
+
+  width: 18px;
+  height: 18px;
+    padding-right: 5px;
+
+}
+.card-footer{
+    margin-top: 224px !important;
+}
+.service_radio_btn_unchecked{
+    border-width: 1px;
+  border-color: #d8d8d8;
+  border-style: solid;
+  border-radius: 5px;
+-moz-appearance:none;
+-webkit-appearance:none;
+-o-appearance:none;
+background-color: #fff;
+  width: 18px;
+  height: 18px;
+  padding-right: 5px;
+
+}
+.result-label{
+    font-size: 18px;
+  font-family: "OpenSans";
+  color: rgb(63, 63, 63);
+  font-weight: bold;
+  line-height: 4.69;
+  text-align: left;
+  margin-left: -22px;
+    margin-right: -29px;
+}
+.divider{
+    top:13px;
+}
+.dealer-text{
+  font-size: 18px;
+  font-family: "OpenSans";
+  color: rgba(33, 109, 223,255);
+  font-weight: bold;
+  text-align: left;
+  padding: 28px 30px;
+}
+.dealer-text-mob{
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: rgba(33, 109, 223,255);
+  font-weight: bold;
+  line-height: 4.69;
+  text-align: center;
+}
+.dropdown-mob{
+    top: 20px;
+    left: 45px;
+}
+.checkbox-inline{
+    padding-right: 10px;
+}
+.White_header {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 4.3px 0.7px rgba(0, 0, 0, 0.31);
+  position: absolute;
+  top: 35px;
+  width: 100%;
+  height: 102px;
+  
+}
+.dd-menu{
+    position: absolute;
+    transform: translate3d(-173px, 38px, 0px) !important;
+    top: 0px;
+    left: 0px;
+    height: auto;
+    min-height: 146px;
+    width: 311px;
+    will-change: transform;
+}
+.dd-btn{
+    background-color: white !important;
+    border-radius: 0px !important;
+}
+.shadow-bg{
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 4.3px 0.7px rgba(0, 0, 0, 0.31);
+  position: relative;
+  width: 350px;
+  height: 521px;
+}
+.nav-color{
+    color: #083d8c !important;
+}
+.btn-find{
+  border-width: 1.25px;
+  border-color: rgb(33, 109, 223);
+  border-style: solid;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #216ddf;
+  font-family: OpenSans;
+  padding: 2px 9px;    
+    
+}
+
+
+.location_icon_rasterized {
+  display: inline-block;
+  margin: 5% 10px;  
+}
+.bg_White{
+    background-color: #fff;
+}
+.dealer-name{
+  font-size: 26px;
+  font-family: "OpenSans-Light";
+  color: rgba(63, 63, 63,255);
+  line-height: 1.2;
+  text-align: center;
+  margin: 35px 0px 31px 0px;
+
+}
+.phone-icon{
+    width: 27px;
+    height: 28px;
+}
+.white{
+    background-color: white !important;
+    color: #000000 !important;
+}
+.create
+{
+
+padding-left: 48px;  /* width of the image plus a little extra padding */
+display: block;  /* may not need this, but I've found I do */
+margin-bottom: 25px;
+}
+.mail-icon{
+    /* width of the image plus a little extra padding */
+display: block;  /* may not need this, but I've found I do */
+margin-bottom: 25px;  
+    color: #083d8c;
+}
+.phone-no{
+  font-size: 26px;
+  font-family: "OpenSans-Extrabold";
+  color: rgb(63, 63, 63);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  font-weight: bold;
+
+}
+
+.business-hr {
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: rgb(63, 63, 63);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 12px;
+}
+
+
+.cant-talk{
+
+  font-size: 12px;
+  font-family: "OpenSans";
+  color: rgb(63, 63, 63);
+  font-style: italic;
+  line-height: 1.2;
+  text-align: center;
+  
+  left: 12%;
+  margin-bottom: 25px;    
+}
+
+.rounded-rectangle {
+  border-width: 1.25px;
+  border-color: rgb(2, 199, 198);
+  border-style: solid;
+  border-radius: 3px;
+  
+  margin-left:61px;
+  
+  height: 46px;
+    width: 190px;
+    padding-bottom: 17px;
+    padding-right: 21px;
+    padding-top: 11px;
+  line-height: 1.5;
+  background-color: #fff;
+}
+
+._7_dealers_in_28226 {
+  font-size: 18px;
+  font-family: "OpenSans";
+  color: rgb(33, 109, 223);
+  font-weight: bold;
+  line-height: 1.158;
+  text-align: left;
+  -moz-transform: matrix( 0.99990505045274,0,0,0.99845229988237,0,0);
+  -webkit-transform: matrix( 0.99990505045274,0,0,0.99845229988237,0,0);
+  -ms-transform: matrix( 0.99990505045274,0,0,0.99845229988237,0,0);
+  position: absolute;
+  left: 266px;
+  top: 371px;
+  width: 163.958px;
+  height: 14px;
+  z-index: 116;
+}
+.RESULTS_FILTER_BAR {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1440px;
+  height: 1168px;
+  z-index: 117;
+}
+.final-footer{
+  font-size: 12px;
+  font-family: "OpenSans";
+  color: rgb(63, 63, 63);
+  line-height: 2.25;
+  text-align: left;
+  
+  left: 14%;
+  top: 14%;
+  width: 246.519px;
+  height: 35.804px;
+}
+.footer-para{
+    font-size: 12px;
+  color: #fff;
+  line-height: 1.2;
+  text-align: center;
+ padding:10px;
+          margin-bottom: 0;
+}
+.modal-header{
+    background-color: #083d8c;top:0;bottom:0; width: 100%;
+}
+.email-modal{
+    height: 739px; width: 703px;
+}
+.label-text{
+font-size: 11pt;
+font-weight: bold;
+color: rgba(97, 97, 97, 255);
+text-align: left;
+}
+.label-send-email-text{
+font-size: 11pt;
+font-weight: bold;
+color: rgba(97, 97, 97, 255);
+text-align: center;
+}
+.long-field{
+        min-width: 373%;
+    margin-top: 10px;
+}
+.btn-style{
+    background-color: #01c7c6;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 2px;
+    width: 50px;
+    margin-top: 10px;
+    margin-right: 6px;
+}
+.close-btn{
+    color: #ffffff;
+    opacity: 1;
+}
+.close-btn:hover{
+    color: #f6f6f6;
+    opacity: 0.7;
+}
+.send-email-link{
+    text-align: center;padding: 19px 257px 37px 250px;
+}
+.send-email-link-mob{
+    text-align: right;padding: 19px 257px 37px 250px;
+}
+.label-send-email{
+font-size: 11pt;
+font-weight: bold;
+color: #01c7c6;
+text-align: right;
+}
+.modal-p{
+    font-size: 12pt;color:rgba(97,97,97,255);text-align: left;
+}
+.modal-foot{
+    background-color: #f6f6f6;bottom:0; height: 65px; width: 100%;font-size: 10pt;color: rgba(97,97,97,255);text-align: left;padding-top: 10px;
+}
+.left-pad{
+    padding-left: 10px;
+}
+.ul-content{
+    list-style-type: none;text-align: center;padding-left: 0px;font-family: "OpenSans";font-size: 14px;
+}
+.ul-nav{
+    font-family: "OpenSans" ;font-size: 15px;font-weight: bold;text-align: right;
+}
